@@ -528,3 +528,17 @@ body {
 .dropdown-item:hover {
   background-color: var(--bg-surface-elevated) !important;
 }
+
+/* Responsive Desktop Modals (Must be at bottom to cascade properly) */
+@media (min-width: 768px) {
+  .modal-content {
+    left: calc(50vw + 50px);
+    margin-left: -250px;
+    width: 500px;
+    right: auto;
+    bottom: 40px;
+    border-radius: 32px;
+    border: 1px solid var(--border-glass);
+    padding-bottom: 32px;
+  }
+}

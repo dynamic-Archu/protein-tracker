@@ -29,40 +29,26 @@ export function AddEntryModal({ isOpen, onClose, onSave }) {
     };
 
     return (
-        <div style={{
-            position: 'fixed',
-            top: 0, left: 0, right: 0, bottom: 0,
-            zIndex: 100,
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'flex-end',
-            pointerEvents: isOpen ? 'auto' : 'none'
-        }}>
+        <>
             {/* Backdrop */}
             <div
+                className="modal-backdrop"
                 onClick={onClose}
                 style={{
-                    position: 'absolute',
-                    top: 0, left: 0, right: 0, bottom: 0,
-                    backgroundColor: 'rgba(0,0,0,0.4)',
-                    backdropFilter: 'blur(4px)',
                     opacity: animateIn ? 1 : 0,
                     transition: 'opacity 0.3s ease',
+                    pointerEvents: animateIn ? 'auto' : 'none'
                 }}
             />
 
             {/* Sheet */}
             <div
-                className="glass-panel"
+                className="modal-content"
                 style={{
-                    position: 'relative',
-                    padding: '24px',
-                    borderTopLeftRadius: '32px',
-                    borderTopRightRadius: '32px',
                     transform: animateIn ? 'translateY(0)' : 'translateY(100%)',
                     transition: 'transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease',
                     opacity: animateIn ? 1 : 0,
-                    paddingBottom: 'max(24px, env(safe-area-inset-bottom))'
+                    pointerEvents: animateIn ? 'auto' : 'none'
                 }}
             >
                 <div className="flex-between mb-4">
@@ -118,6 +104,6 @@ export function AddEntryModal({ isOpen, onClose, onSave }) {
                     </button>
                 </form>
             </div>
-        </div>
+        </>
     );
 }
