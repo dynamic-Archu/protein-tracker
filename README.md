@@ -14,9 +14,9 @@
 ## 📸 Application Walkthrough
 
 <div align="center">
-  <img src="docs/assets/final_app_walkthrough.webp" alt="Protein Tracker Full Walkthrough" width="800"/>
+  <img src="docs/assets/vercel_darkmode_walkthrough.webp" alt="Protein Tracker Full Walkthrough" width="800"/>
   <br/>
-  <em>Live Demonstration of Dashboard, Calendar, and Profile Management</em>
+  <em>Live Demonstration of Dashboard, Calendar, and Profile Management (Dark Mode)</em>
 </div>
 
 ---
