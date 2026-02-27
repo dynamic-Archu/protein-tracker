@@ -249,7 +249,7 @@ export default function App() {
                 </section>
 
                 {/* Log History (Limited to 3) */}
-                <div style={{ marginTop: '0px' }}>
+                <div style={{ marginTop: '0px', paddingBottom: '140px' }}>
                   <h2 className="text-title-2" style={{ marginBottom: '16px' }}>Log</h2>
                   <HistoryList
                     entries={todaysEntries.slice(0, 3)}
@@ -332,7 +332,7 @@ export default function App() {
                   </div>
                 </section>
 
-                <div style={{ marginTop: '0px' }}>
+                <div style={{ marginTop: '0px', paddingBottom: '140px' }}>
                   <h2 className="text-title-2" style={{ marginBottom: '16px' }}>Logs</h2>
                   <HistoryList
                     entries={getEntriesForDay(selectedPastDate)}

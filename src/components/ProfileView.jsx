@@ -113,8 +113,8 @@ export function ProfileView({ onBack }) {
     const [showAvatarPicker, setShowAvatarPicker] = useState(false);
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', height: '100%', alignItems: 'center', justifyContent: 'center', overflowY: 'auto', paddingTop: '40px' }}>
-            <div className="card" style={{ width: '100%', maxWidth: '640px', padding: '32px', display: 'flex', flexDirection: 'column', gap: '32px', margin: 'auto', transform: 'translateX(min(0vw, -30px))' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', height: '100%', alignItems: 'center', justifyContent: 'center', overflowY: 'auto', paddingTop: '40px', paddingBottom: '40px' }}>
+            <div className="card" style={{ width: '100%', maxWidth: '640px', padding: '32px', display: 'flex', flexDirection: 'column', gap: '32px', margin: 'auto' }}>
 
                 {/* Header */}
                 <header style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
