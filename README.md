@@ -11,16 +11,12 @@
 
 ---
 
-## 📸 Application Previews
+## 📸 Application Walkthrough
 
 <div align="center">
-  <img src="docs/assets/dashboard_preview.webp" alt="Dashboard Widescreen Preview" width="800"/>
+  <img src="docs/assets/final_app_walkthrough.webp" alt="Protein Tracker Full Walkthrough" width="800"/>
   <br/>
-  <em>Widescreen Dashboard with Custom SVG Floating Assets</em>
-  <br/><br/>
-  <img src="docs/assets/calendar_preview.webp" alt="Calendar Retroactive Logging Preview" width="800"/>
-  <br/>
-  <em>Retroactive Logging & Interactive Calendar</em>
+  <em>Live Demonstration of Dashboard, Calendar, and Profile Management</em>
 </div>
 
 ---
